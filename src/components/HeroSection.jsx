@@ -1,5 +1,5 @@
 import React from 'react';
-import './HeroSection.css'; // Optional if you want to add overlay or text styles
+import './HeroSection.css';
 
 const HeroSection = () => (
   <section className="hero-section-with-img">
