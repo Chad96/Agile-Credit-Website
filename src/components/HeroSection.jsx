@@ -11,9 +11,25 @@ const HeroSection = () => (
       <p className="lead fs-4 text-light mb-5">
         Helping South Africans restore their credit, remove debt review and build a better financial future guided by integrity, godliness and real results.
       </p>
+
       <div className="d-flex flex-column flex-sm-row gap-3 justify-content-center">
-        <button className="btn btn-primary btn-lg px-5 py-3">Get Help Now</button>
-        <button className="btn btn-outline-light btn-lg px-5 py-3">Book Free Consultation</button>
+        {/* WhatsApp Button */}
+        <a
+          href="https://wa.me/27872553598"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn btn-primary btn-lg px-5 py-3"
+        >
+          Get Help Now
+        </a>
+
+        {/* Contact Form Scroll Button */}
+        <a
+          href="#contact"
+          className="btn btn-outline-light btn-lg px-5 py-3"
+        >
+          Book Free Consultation
+        </a>
       </div>
     </div>
   </section>
